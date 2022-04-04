@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um página com lendas do Halloween para você aprender mais dessa cultura assustadora.">
+
+    <title>Halloween</title>
+    <link rel="shortcut icon" href="img/logo.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="img/logoabobora.png" alt="Logo">
+        <nav class="cabecalho-menu">
+            <a href="" class="cabecalho-menu-item">Lendas</a>
+            <a href="" class="cabecalho-menu-item">Mitologia</a>
+            <a href="" class="cabecalho-menu-item">Folclore</a>
+            <a href="" class="cabecalho-menu-item">Mitos</a>
+            <button onClick="mudaTema()" class="cabecalho-button">
+                <i  class =" fas fa-moon fa-1x " > </i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-titulo">Lendas</h1>
+                <h2 class="conteudo-principal-subtitulo">Um caldeirão de lendas assustadoras</h2>
+                <a href="https://segredosdomundo.r7.com/?s=lendas+" class="button-lendas">Mais Lendas</a>
+            </div>
+            <img class="conteudo-principal-imagem" src="img/caldeiraoimg.png" alt="Imagem do Caldeirão">
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Lendas de Halloween</h3>
+            <p class="conteudo-secundario-paragrafo"> <a href="#jackOLanterna"> 1. Jack: O Lanterna </a></p>
+            <p class="conteudo-secundario-paragrafo"><a href="#slenderMan">2. Slender Man </a> </p>
+            <p class="conteudo-secundario-paragrafo"><a href="#OCavaleiroSemCabeça"> 3. O cavaleiro sem cabeça </a></p>
+            <p class="conteudo-secundario-paragrafo" "><a href="#vladTepes"> 4. Vlad Tepes III: O empalador</a></p>
+        </section>
+
+        <section class="lendas primeira-lenda">
+           <div class="conteudo-primeira-lenda">
+               <h2 class="titulo-lenda" id="jackOLanterna">Jack: O lanterna</h2>
+               <p class="subtitulo-lenda">Jack O'Lantern é personagem de uma lenda urbana sobre a origem da abóbora de Halloween.</p>
+               <img class="img-primeira-lenda" src="http://3.bp.blogspot.com/-cxVS522M2v8/VFQQBs7Fk9I/AAAAAAAAA_k/ExR750HObII/s1600/Happy_Halloween_Jack_O_Lantern_by_GENZOMAN.jpg" alt="">
+               
+           </div>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/gq8DrqYt5fU?start=51" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="lendas segunda-lenda">
+            <div class="conteudo-segunda-lenda">
+                <h2 class="titulo-lenda" id="slenderMan">Slender Man</h2>
+                <p class="subtitulo-segunda-lenda">Se trata de uma criatura maligna. Ele seria capaz de esticar seus membros e o <br> próprio tronco da forma que bem entender. E seu objetivo é sempre causar medo e seduzir suas vítimas.</p>
+                <img class="img-segunda-lenda" src="https://quintacapa.com.br/wp-content/uploads/2018/03/1-50.jpg" alt="">
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P2p9rivrJOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="lendas terceira-lenda">
+            <div class="conteudo-terceira-lenda">
+                <h2 class="titulo-lenda" id="OCavaleiroSemCabeça">O cavaleiro sem cabeça</h2>
+                <p class="subtitulo-terceira-lenda">É representada por um homem sem cabeça, montando um corcel negro,<br> utiliza vestes medievais puídas em tons sombrios  e costuma cavalgar de forma audível,<br> carregando consigo a cabeça decapitada.</p>
+                <img class="img-terceira-lenda" src="https://i1.wp.com/universorpg.com/wp-content/uploads/2018/11/img-cavaleiro-sem-cabeca-1.jpg?resize=750%2C422&ssl=1" alt="">
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a-VvVBfLC0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="lendas quarta-lenda">
+            <div class="conteudo-quarta-lenda">
+                <h2 class="titulo-lenda" id="vladTepes">Vlad Tepes III: O empalador</h2>
+                <p class="subtitulo-quarta-lenda">Vlad III, Príncipe da Valáquia, membro da Casa de Drăculești,<br> e conhecido como Vlad, o Empalador, foi a inspiração para o mundialmente famoso romance <br>Drácula do autor irlandês Bram Stoker.</p>
+                <img class="img-quarta-lenda" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Vlad_Tepes_002.jpg/265px-Vlad_Tepes_002.jpg" alt="">
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ttjAD7QFT7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h2 class="rodape-titulo">Lendas</h2>
+        <div class="rodape-icones">
+            <a href="https://www.instagram.com/srt.a_torres/">
+                <i class =" fab fa-instagram fa-2x "></i>
+            </a>
+            <a href="https://www.linkedin.com/in/torresamandab/">
+                <i class =" fab fa-linkedin fa-2x " ></i>
+            </a>
+            <a href="https://github.com/Torresamanda">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script script  src =" https://kit.fontawesome.com/331383e75c.js " crossorigin =" anônimo "></script>
+    <script src="setup.js"></script>
+</body>
+</html>
